@@ -31,7 +31,7 @@ export function HomePage() {
         className="bg-primary text-primary-foreground px-4 lg:px-6 h-14 flex items-center justify-between">
         <Link href="#" className="flex items-center gap-2" prefetch={false}>
           <MountainIcon className="h-6 w-6" />
-          <span className="text-lg font-semibold">John Doe</span>
+          <span className="text-lg font-semibold">Taha Zoabi</span>
         </Link>
         <nav className="hidden lg:flex gap-4 sm:gap-6">
           <Link
@@ -64,11 +64,10 @@ export function HomePage() {
             className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
             <div className="space-y-4">
               <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">About Me</div>
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">John Doe</h1>
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Taha Zoabi</h1>
               <p
                 className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I'm a software engineer with a passion for building beautiful and functional web applications. I have
-                experience in a variety of technologies and love to learn new things.
+                Hello! I'm Taha Zoabi, a 24-year-old first-year Software Engineering student diving into Java. Passionate about coding and problem-solving, I'm eager to master Java's power and versatility in creating innovative solutions. Excited about the possibilities ahead in software development!
               </p>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
                 <Link
@@ -179,7 +178,7 @@ export function HomePage() {
       </main>
       <footer
         className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-        <p className="text-xs text-muted-foreground">&copy; 2024 John Doe. All rights reserved.</p>
+        <p className="text-xs text-muted-foreground">&copy; 2024 Taha Zoabi. All rights reserved.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link
             href="#"
