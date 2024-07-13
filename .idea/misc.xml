@@ -13,9 +13,4 @@
       </MTProjectMetadataState>
     </option>
   </component>
-  <component name="PrettierConfiguration">
-    <option name="myConfigurationMode" value="AUTOMATIC" />
-    <option name="myRunOnSave" value="true" />
-    <option name="myFilesPattern" value="*" />
-  </component>
 </project>
