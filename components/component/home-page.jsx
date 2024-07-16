@@ -21,24 +21,38 @@ export function HomePage() {
             <MountainIcon className="h-6 w-6" />
             <span className="text-lg font-semibold">Taha Zoabi</span>
           </Link>
-          {/* Toggle button for small screens */}
+          {/* Toggle button for medium and small screens */}
           <Button variant="outline" size="icon" className="lg:hidden" onClick={toggleMenu}>
             {menuOpen ? <XIcon className="h-6 w-6" /> : <MenuIcon className="h-6 w-6" />}
             <span className="sr-only">Toggle navigation menu</span>
           </Button>
           {/* Navigation links for large screens */}
-          <nav className={`lg:flex flex-grow items-center justify-end space-x-4 sm:space-x-6 ${menuOpen ? 'block' : 'hidden'}`}>
-            <Link href="#about" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
+          <nav className={`hidden lg:flex flex-grow items-center justify-end space-x-4 sm:space-x-6`}>
+            <Link href="#about" className="text-sm font-medium hover:underline" prefetch={false}>
               About
             </Link>
-            <Link href="#projects" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
+            <Link href="#projects" className="text-sm font-medium hover:underline" prefetch={false}>
               Projects
             </Link>
-            <Link href="#contact" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
+            <Link href="#contact" className="text-sm font-medium hover:underline" prefetch={false}>
               Contact
             </Link>
           </nav>
         </header>
+        {/* Dropdown menu for medium and small screens */}
+        <nav className={`lg:hidden absolute top-14 right-0 ${menuOpen ? 'block' : 'hidden'} bg-gray-900 text-white py-2 px-4`}>
+          <div className="flex flex-col gap-4 sm:flex-row sm:gap-6">
+            <Link href="#about" className="text-sm font-medium hover:underline" prefetch={false}>
+              About
+            </Link>
+            <Link href="#projects" className="text-sm font-medium hover:underline" prefetch={false}>
+              Projects
+            </Link>
+            <Link href="#contact" className="text-sm font-medium hover:underline" prefetch={false}>
+              Contact
+            </Link>
+          </div>
+        </nav>
         <main className="flex-1">
           <section id="about" className="w-full py-12 md:py-24 lg:py-32">
             <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
@@ -178,10 +192,10 @@ export function HomePage() {
         <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
           <p className="text-xs text-muted-foreground">&copy; 2024 Taha Zoabi. All rights reserved.</p>
           <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-            <Link href="#" className="text-xs hover:underline underline-offset-4" prefetch={false}>
+            <Link href="#" className="text-xs hover:underline" prefetch={false}>
               Terms of Service
             </Link>
-            <Link href="#" className="text-xs hover:underline underline-offset-4" prefetch={false}>
+            <Link href="#" className="text-xs hover:underline" prefetch={false}>
               Privacy
             </Link>
           </nav>
@@ -250,4 +264,3 @@ function XIcon(props) {
 }
 
 export default HomePage;
-
