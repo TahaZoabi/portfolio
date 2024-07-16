@@ -85,7 +85,7 @@ export function HomePage() {
               </div>
               <div className="flex justify-center">
                 <Avatar className="w-32 h-32 border-4 border-primary">
-                  <AvatarImage src="/placeholder-user.jpg" />
+                  <AvatarImage src="/avatar.png" />
                   <AvatarFallback>JD</AvatarFallback>
                 </Avatar>
               </div>
@@ -106,7 +106,7 @@ export function HomePage() {
               <div className="grid gap-4">
                 <Card>
                   <CardHeader>
-                    <CardTitle>JAVA To-Do App</CardTitle>
+                    <CardTitle>To-Do App</CardTitle>
                     <CardDescription>
                       A Java Todo App is a beginner-friendly project that helps users manage tasks. It allows you to add
                       tasks with descriptions and due dates, mark tasks as completed, and delete tasks. This project
@@ -116,26 +116,28 @@ export function HomePage() {
                   </CardHeader>
                   <CardContent>
                     <img
-                        src="/placeholder.svg"
+                        src="/todo.png"
                         width={400}
                         height={225}
                         alt="Project 1"
-                        className="object-cover aspect-video rounded-md"
+                        className="object-cover object-center aspect-w-16 aspect-h-9 rounded-md"
                     />
                   </CardContent>
+
                   <CardFooter>
                     <Link
                         href="https://github.com/TahaZoabi/JAVA-TODO"
                         className="inline-flex h-9 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                         prefetch={false}
+                        target="_blank"
                     >
-                      View Project
+                      GitHub Link
                     </Link>
                   </CardFooter>
                 </Card>
                 <Card>
                   <CardHeader>
-                    <CardTitle>JS Phone-Book</CardTitle>
+                    <CardTitle>Phone-Book</CardTitle>
                     <CardDescription>
                       I've developed a simple Phone Book app using vanilla JavaScript. It allows users to add contacts
                       with names and phone numbers, which are displayed in a list format on the webpage. The app also
@@ -145,11 +147,11 @@ export function HomePage() {
                   </CardHeader>
                   <CardContent>
                     <img
-                        src="/placeholder.svg"
+                        src="/phonebook.png"
                         width={400}
                         height={225}
                         alt="Project 2"
-                        className="object-cover aspect-video rounded-md"
+                        className="object-cover object-center aspect-w-16 aspect-h-9 rounded-md"
                     />
                   </CardContent>
                   <CardFooter>
@@ -157,8 +159,9 @@ export function HomePage() {
                         href="https://github.com/TahaZoabi/Phone-Book"
                         className="inline-flex h-9 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                         prefetch={false}
+                        target="_blank"
                     >
-                      View Project
+                      GitHub Link
                     </Link>
                   </CardFooter>
                 </Card>
