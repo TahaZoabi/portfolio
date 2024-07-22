@@ -18,7 +18,6 @@ export function HomePage() {
       <div className="flex flex-col min-h-screen">
         <header className="bg-primary text-primary-foreground px-4 lg:px-6 h-14 flex items-center justify-between">
           <Link href="#" className="flex items-center gap-2" prefetch={false}>
-            <MountainIcon className="h-6 w-6" />
             <span className="text-lg font-semibold">Taha Zoabi</span>
           </Link>
           <Button variant="outline" size="icon" className="lg:hidden" onClick={toggleMenu}>
