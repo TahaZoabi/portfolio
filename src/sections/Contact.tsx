@@ -1,6 +1,5 @@
 import Title from '../components/Title.tsx'
 import Footer from '../components/Footer.tsx'
-import { Mail, Phone, MapPin } from 'lucide-react'
 import Form from '../components/Form.tsx'
 
 function Contact() {
@@ -22,18 +21,6 @@ function Contact() {
                 If you’d like to get in touch, feel free to reach out! I’m
                 always open to discussing new projects, collaborations, or just
                 connecting. Looking forward to hearing from you!
-              </p>
-              <p className="flex gap-3 p-2">
-                <Mail />
-                range.dev7@gmail.com
-              </p>
-              <p className="flex h-[39.99px] w-[223.23px] gap-3 p-2 md:h-[43.99] md:w-[260.73px]">
-                <Phone />
-                +972 054-873-4531
-              </p>
-              <p className="flex h-[39.99px] w-[223.23px] gap-3 p-2 md:h-[43.99] md:w-[260.73px]">
-                <MapPin />
-                Nein, Israel
               </p>
             </div>
           </div>
