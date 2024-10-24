@@ -1,13 +1,3 @@
-import portfolioImg from '/portfolio.png'
-import phoneBookImg from '/phone-book.png'
-import quizImg from '/java-quiz.png'
-import todoImg from '/java-todo.png'
-
-export { default as Header } from '../sections/Header.tsx'
-export { default as Hero } from '../sections/Hero.tsx'
-export { default as About } from '../sections/About.tsx'
-export { default as Projects } from '../sections/Projects.tsx'
-export { default as Contact } from '../sections/Contact.tsx'
 export { ThemeProvider } from '../lib/theme-provider.tsx'
 
 export const NAV_LINKS = ['home', 'about me', 'projects', 'contact me']
@@ -26,7 +16,7 @@ export const projects: Project[] = [
     title: 'Portfolio',
     description:
       'A personal portfolio showcasing my projects, skills, and experience, with a clean, responsive design.',
-    img: portfolioImg,
+    img: '/portfolio.png',
     link: 'https://github.com/TahaZoabi/portfolio'
   },
   {
@@ -34,7 +24,7 @@ export const projects: Project[] = [
     title: 'Phone-Book',
     description:
       'A simple phone book app for managing contacts, featuring options to add, edit, and delete entries.',
-    img: phoneBookImg,
+    img: '/phone-book.png',
     link: 'https://github.com/TahaZoabi/Phone-Book-V2'
   },
   {
@@ -42,7 +32,7 @@ export const projects: Project[] = [
     title: 'Java Quiz-App',
     description:
       'An interactive quiz app built with Java to test knowledge on various topics, with scoring feature.',
-    img: quizImg,
+    img: '/java-quiz.png',
     link: 'https://github.com/TahaZoabi/Quiz-Application'
   },
   {
@@ -50,7 +40,7 @@ export const projects: Project[] = [
     title: 'Java Todo-List',
     description:
       'A basic task management app to create, edit, and track tasks, designed to keep you organized.',
-    img: todoImg,
+    img: '/java-todo.png',
     link: 'https://github.com/TahaZoabi/JAVA-TODO'
   }
 ]
