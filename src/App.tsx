@@ -9,7 +9,7 @@ import {
 
 function App() {
   return (
-    <main className={'mx-auto max-w-[1440px]'}>
+    <main className={'mx-auto max-w-[1100px]'}>
       <ThemeProvider
         defaultTheme="dark"
         storageKey="vite-ui-theme"
