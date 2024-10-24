@@ -21,5 +21,5 @@ function App() {
     </main>
   )
 }
-// wsl test
+
 export default App
