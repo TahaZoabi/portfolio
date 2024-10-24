@@ -41,7 +41,7 @@ export const projects: Project[] = [
     id: 3,
     title: 'Java Quiz-App',
     description:
-      'An interactive quiz app built with Java to test knowledge on various topics, with scoring and timer features.',
+      'An interactive quiz app built with Java to test knowledge on various topics, with scoring feature.',
     img: quizImg,
     link: 'https://github.com/TahaZoabi/Quiz-Application'
   },

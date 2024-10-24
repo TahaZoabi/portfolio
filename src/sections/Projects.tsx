@@ -1,7 +1,6 @@
 import Title from '../components/Title.tsx'
 import { projects } from '../lib/projects.ts'
 import Card from '../components/ui/Card.tsx'
-import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry'
 
 function Projects() {
   return (
@@ -12,22 +11,15 @@ function Projects() {
       >
         <Title>Projects</Title>
       </div>
-      <div className="mx-auto mb-16 max-w-sm px-4 md:max-w-2xl">
-        <ResponsiveMasonry columnsCountBreakPoints={{ 0: 1, 768: 2 }}>
-          <Masonry
-            gutter="1rem"
-            className={
-              'mx-auto grid w-fit grid-cols-2 items-start justify-center'
-            }
+      <div className="mx-auto mb-16 flex max-w-sm flex-col items-center justify-center gap-5 px-4 sm:flex-wrap md:max-w-none md:gap-4 lg:flex-row">
+        {projects.map((project) => (
+          <div
+            className="flex-1 md:w-1/2"
+            key={project.id}
           >
-            {projects.map((project) => (
-              <Card
-                key={project.id}
-                project={project}
-              />
-            ))}
-          </Masonry>
-        </ResponsiveMasonry>
+            <Card project={project} />
+          </div>
+        ))}
       </div>
     </section>
   )
