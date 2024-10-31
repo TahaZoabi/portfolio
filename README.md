@@ -26,7 +26,7 @@ Welcome to my portfolio! This project showcases my skills and projects as a web 
 - **Vite**: Build tool for faster development and optimized production.
 - **React**: JavaScript library for building user interfaces.
 - **TypeScript**: Typed superset of JavaScript for enhanced code quality.
-- ** Tailwind CSS**: Styling the components for a modern look.
+- **Tailwind CSS**: Styling the components for a modern look.
 
 ## Installation
 
@@ -58,6 +58,23 @@ To get a local copy up and running, follow these steps:
 Explore the different sections by clicking on the navigation links. Feel free to toggle between dark and light modes and download my resume from the designated link.
 
 
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a Pull Request.
+
+
+
+
+
 
 Feel free to reach out if you have any questions or suggestions!
+
+
+
 
