@@ -12,6 +12,14 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: 5,
+    title: 'REST-API',
+    description:
+      'A full CRUD REST API built with Express.js and Prisma, providing endpoints for managing products and their categories.',
+    img: '/rest-api-1.svg',
+    link: 'https://github.com/TahaZoabi/REST-API'
+  },
+  {
     id: 1,
     title: 'Portfolio',
     description:
