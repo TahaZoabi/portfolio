@@ -11,10 +11,10 @@ function Projects() {
       >
         <Title>Projects</Title>
       </div>
-      <div className="mx-auto mb-16 flex max-w-sm flex-col items-center justify-center gap-5 px-4 sm:flex-wrap md:max-w-none md:gap-4 lg:flex-row">
+      <div className="mx-auto mb-16 grid grid-cols-1 gap-5 px-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
         {projects.map((project) => (
           <div
-            className="flex-1 md:w-1/2"
+            className="flex justify-center"
             key={project.id}
           >
             <Card project={project} />
