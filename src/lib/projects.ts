@@ -12,6 +12,15 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: 7,
+    title: 'Notionary',
+    description:
+      'A practical full-stack notes app that offers seamless note creation, editing, and deletion, paired with simple categorization and data storage',
+    img: '/Notionary.png',
+    link: 'https://github.com/TahaZoabi/Notionary'
+  },
+
+  {
     id: 5,
     title: 'REST-API',
     description:
