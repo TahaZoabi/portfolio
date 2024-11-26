@@ -12,7 +12,7 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: 7,
+    id: 3,
     title: 'Notionary',
     description:
       'A practical full-stack notes app that offers seamless note creation, editing, and deletion, paired with simple categorization and data storage',
@@ -21,7 +21,7 @@ export const projects: Project[] = [
   },
 
   {
-    id: 5,
+    id: 2,
     title: 'REST-API',
     description:
       'A full CRUD REST API built with Express.js and Prisma, providing endpoints for managing products and their categories.',
@@ -35,29 +35,5 @@ export const projects: Project[] = [
       'A personal portfolio showcasing my projects, skills, and experience, with a clean, responsive design.',
     img: '/portfolio.png',
     link: 'https://github.com/TahaZoabi/portfolio'
-  },
-  {
-    id: 2,
-    title: 'Phone-Book',
-    description:
-      'A simple phone book app for managing contacts, featuring options to add, edit, and delete entries.',
-    img: '/phone-book.png',
-    link: 'https://github.com/TahaZoabi/Phone-Book-V2'
-  },
-  {
-    id: 3,
-    title: 'Java Quiz-App',
-    description:
-      'An interactive quiz app built with Java to test knowledge on various topics, with scoring feature.',
-    img: '/java-quiz.png',
-    link: 'https://github.com/TahaZoabi/Quiz-Application'
-  },
-  {
-    id: 4,
-    title: 'Java Todo-List',
-    description:
-      'A basic task management app to create, edit, and track tasks, designed to keep you organized.',
-    img: '/java-todo.png',
-    link: 'https://github.com/TahaZoabi/JAVA-TODO'
   }
 ]
