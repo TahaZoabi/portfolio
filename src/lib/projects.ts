@@ -15,7 +15,7 @@ export const projects: Project[] = [
     id: 3,
     title: 'Notionary',
     description:
-      'A practical full-stack notes app that offers seamless note creation, editing, and deletion, paired with simple categorization and data storage',
+      'A practical full-stack notes app that offers seamless note creation, editing, and deletion.',
     img: '/Notionary.png',
     link: 'https://github.com/TahaZoabi/Notionary'
   },
@@ -24,7 +24,7 @@ export const projects: Project[] = [
     id: 2,
     title: 'REST-API',
     description:
-      'A full CRUD REST API built with Express.js and Prisma, providing endpoints for managing products and their categories.',
+      'A full CRUD REST API, providing endpoints for managing products and their categories.',
     img: '/rest-api-1.svg',
     link: 'https://github.com/TahaZoabi/REST-API'
   },

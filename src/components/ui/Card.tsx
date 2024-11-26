@@ -8,7 +8,7 @@ interface ProjectProps {
 
 const Card: React.FC<ProjectProps> = ({ project }) => {
   return (
-    <div className="group relative flex h-fit min-h-80 w-full flex-col overflow-hidden rounded-xl border-2 bg-input shadow-md">
+    <div className="group relative flex h-full min-h-80 w-full flex-col overflow-hidden rounded-xl border-2 bg-input shadow-md">
       {project.link && (
         <a
           href={project.link}
@@ -18,7 +18,7 @@ const Card: React.FC<ProjectProps> = ({ project }) => {
           <Github className="h-5 w-5" />
         </a>
       )}
-      <div className="relative h-52 w-full overflow-hidden">
+      <div className="relative h-full w-full overflow-hidden">
         {/* <div className="absolute bottom-0 left-0 z-10 w-full h-16 from-input bg-gradient-to-t"></div> */}
         <img
           className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
@@ -26,7 +26,7 @@ const Card: React.FC<ProjectProps> = ({ project }) => {
           alt={project.title}
         />
       </div>
-      <div className="z-10 flex h-full flex-col justify-between p-4">
+      <div className="z-10 flex h-fit flex-col justify-between p-4">
         <div className="mb-2 line-clamp-1 text-xl font-bold">
           {project.title}
         </div>
