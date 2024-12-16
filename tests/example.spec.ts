@@ -1,14 +1,14 @@
 import { test, expect } from '@playwright/test'
 
 test('has title', async ({ page }) => {
-  await page.goto('http://localhost:5173/')
+  await page.goto('https://tahazoabi.com/')
 
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle('Taha Zoabi')
 })
 
 test('header title', async ({ page }) => {
-  await page.goto('http://localhost:5173/')
+  await page.goto('https://tahazoabi.com/')
 
   // Expects page to have a heading visible
   await expect(
